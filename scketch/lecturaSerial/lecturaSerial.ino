@@ -23,6 +23,7 @@ void loop() {
     } // end while
     // Monstramos el mensaje
     Serial.println(mensaje);
+    // Limpiamos el mensaje
     mensaje = " ";
     
   } // end if
